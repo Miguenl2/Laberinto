@@ -1,0 +1,477 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1739927148254499, "dur":2125, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739927148256634, "dur":39, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1739927148256683, "dur":12, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1739927148256696, "dur":479, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1739927148257206, "dur":511, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739927148257717, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739927148827289, "dur":244, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739927148827533, "dur":29, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739927148827562, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739927148827565, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739927148827578, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739927148827580, "dur":28, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739927148827608, "dur":31, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739927148827639, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739927148827649, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739927148827651, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739927148827657, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739927148827659, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739927148827666, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739927148827668, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739927148827673, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739927148827675, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739927148827681, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739927148827682, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739927148827687, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739927148827689, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739927148827695, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739927148827697, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739927148827702, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739927148827703, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739927148827709, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739927148827735, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739927148827739, "dur":2832, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1739927148257492, "dur":239, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739927148257742, "dur":5754, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739927148263508, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1739927148263514, "dur":1060, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739927148264576, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1739927148264580, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739927148265895, "dur":3582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1739927148269481, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1739927148269792, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739927148271886, "dur":1819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1739927148273757, "dur":875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739927148274636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739927148274641, "dur":39187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739927148313903, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739927148313969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739927148313975, "dur":6328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739927148320360, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739927148320436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739927148320443, "dur":13539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739927148334053, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739927148334120, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739927148334128, "dur":12890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739927148347096, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739927148347160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739927148347170, "dur":16841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739927148364072, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739927148364130, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739927148364138, "dur":20994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739927148385192, "dur":440418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739927148825617, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739927148825626, "dur":1542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739927148827202, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1739927148827204, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739927148257617, "dur":142, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739927148257759, "dur":5740, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739927148263508, "dur":516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1739927148264031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739927148269039, "dur":2769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1739927148272049, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739927148272305, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739927148272672, "dur":12590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739927148285451, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739927148285557, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739927148285582, "dur":17333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739927148302979, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739927148303053, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739927148303118, "dur":13503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739927148316681, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739927148316756, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739927148316761, "dur":11148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739927148327989, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739927148328171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739927148328182, "dur":15838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739927148344093, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739927148344185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739927148344193, "dur":20282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739927148364543, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739927148364603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739927148364611, "dur":40841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739927148405950, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739927148406164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739927148406177, "dur":20125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739927148426409, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739927148426597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739927148426608, "dur":41400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739927148468075, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739927148468240, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739927148468249, "dur":50413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739927148518745, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739927148518924, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739927148518938, "dur":39750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739927148558755, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1739927148558815, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739927148558827, "dur":17315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1739927148576206, "dur":251081, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739927148257766, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739927148257768, "dur":5753, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739927148263521, "dur":561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1739927148264085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739927148281470, "dur":5979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1739927148287520, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1739927148287574, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739927148287582, "dur":18320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1739927148305977, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1739927148306039, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739927148306050, "dur":12473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1739927148318590, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1739927148318662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739927148318676, "dur":10463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1739927148329196, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1739927148329256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739927148329264, "dur":13555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1739927148342881, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1739927148342972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739927148342980, "dur":15432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1739927148358538, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1739927148358724, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739927148358767, "dur":31382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1739927148390225, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1739927148390395, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739927148390408, "dur":42066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1739927148432537, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1739927148432683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739927148432693, "dur":35931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1739927148468740, "dur":420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1739927148469164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739927148469171, "dur":50141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1739927148519405, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1739927148519469, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739927148519553, "dur":4930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1739927148524604, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1739927148524703, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739927148524758, "dur":18229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1739927148543056, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1739927148543188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739927148543198, "dur":28958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1739927148572234, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1739927148572290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739927148572299, "dur":7032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1739927148579416, "dur":247835, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739927148257907, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739927148257908, "dur":5617, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739927148263525, "dur":494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1739927148264022, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739927148267113, "dur":4195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1739927148271772, "dur":503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1739927148272279, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739927148272286, "dur":2753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1739927148275076, "dur":720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1739927148275798, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739927148275804, "dur":12173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1739927148288079, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739927148288237, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739927148288250, "dur":16712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739927148305032, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739927148305101, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739927148305120, "dur":13742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739927148318937, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739927148319052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739927148319057, "dur":14034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739927148333154, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739927148333225, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739927148333233, "dur":18778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739927148352067, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739927148352127, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739927148352134, "dur":28768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739927148380964, "dur":247804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739927148628774, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739927148628783, "dur":2385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739927148631223, "dur":196037, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739927148257611, "dur":135, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739927148257746, "dur":5766, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739927148263513, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1739927148263769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739927148268632, "dur":2967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1739927148271664, "dur":479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1739927148272148, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739927148272156, "dur":7045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1739927148279253, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739927148279311, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739927148282903, "dur":15495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739927148298460, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739927148298534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739927148298542, "dur":15064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739927148313661, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739927148313759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739927148313765, "dur":13215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739927148327151, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739927148327352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739927148327525, "dur":14703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739927148342306, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739927148342363, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739927148342375, "dur":17592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739927148360042, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739927148360253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739927148360260, "dur":31316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739927148391769, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739927148391941, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739927148391953, "dur":53912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739927148445940, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739927148446170, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739927148446177, "dur":42769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739927148489338, "dur":341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739927148489686, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739927148489698, "dur":50442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739927148540214, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1739927148540421, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739927148540437, "dur":24348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1739927148564873, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1739927148564940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739927148564951, "dur":13549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1739927148578554, "dur":248698, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739927148257741, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739927148257742, "dur":5756, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739927148263507, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1739927148263910, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739927148282425, "dur":7237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1739927148289713, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739927148289772, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739927148289782, "dur":13121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739927148302980, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739927148303053, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739927148303137, "dur":13505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739927148316681, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739927148316748, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739927148316759, "dur":11001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739927148327823, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739927148327939, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739927148327947, "dur":9068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739927148337082, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739927148337149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739927148337160, "dur":10216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739927148347468, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739927148347540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739927148347547, "dur":14926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739927148362550, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739927148362607, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739927148362616, "dur":15150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739927148377834, "dur":114119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739927148491963, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739927148492015, "dur":27076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739927148519146, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739927148519254, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739927148519261, "dur":20477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739927148539809, "dur":1182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1739927148540999, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739927148541011, "dur":32493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1739927148573564, "dur":253690, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739927148257834, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739927148257835, "dur":5667, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739927148263508, "dur":519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1739927148264032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739927148268558, "dur":2570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1739927148271503, "dur":449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1739927148271955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739927148271963, "dur":7008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1739927148279073, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739927148279164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739927148282539, "dur":15019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739927148297612, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739927148297679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739927148297687, "dur":15875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739927148313623, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739927148313674, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739927148313681, "dur":6516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739927148320266, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739927148320338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739927148320345, "dur":11646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739927148332124, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739927148332267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739927148332277, "dur":17053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739927148349396, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739927148349488, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739927148349495, "dur":20520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739927148370081, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739927148370164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739927148370175, "dur":36767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739927148407183, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739927148407357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739927148407367, "dur":28220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739927148435643, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739927148435799, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739927148435809, "dur":38880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739927148474796, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739927148474996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739927148475007, "dur":28941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739927148504017, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739927148504179, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739927148504189, "dur":42490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739927148546740, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1739927148546798, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739927148546807, "dur":25412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1739927148572279, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1739927148572490, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739927148572497, "dur":6268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1739927148578819, "dur":248431, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739927148257873, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739927148257874, "dur":5632, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739927148263507, "dur":646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1739927148264158, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739927148282133, "dur":15137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1739927148297355, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1739927148297438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739927148297447, "dur":15595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1739927148313108, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1739927148313180, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739927148313195, "dur":13332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1739927148326618, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1739927148326771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739927148326781, "dur":11648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1739927148338533, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1739927148338675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739927148338686, "dur":12202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1739927148351082, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1739927148351207, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739927148351219, "dur":26029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1739927148377318, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1739927148377374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739927148377384, "dur":29237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1739927148406686, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1739927148409464, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739927148409480, "dur":35055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1739927148444591, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1739927148444727, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739927148444734, "dur":30432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1739927148475222, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1739927148475341, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739927148475347, "dur":43930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1739927148519333, "dur":2940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1739927148522282, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739927148522295, "dur":24868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1739927148547240, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1739927148547326, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739927148547333, "dur":25228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1739927148572622, "dur":254643, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739927148257923, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739927148257924, "dur":5595, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739927148263520, "dur":683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1739927148264253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739927148266880, "dur":3382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1739927148270301, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1739927148270445, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739927148271189, "dur":4502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1739927148275768, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1739927148275884, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739927148281215, "dur":15586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1739927148296871, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739927148297008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739927148297018, "dur":16053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739927148313136, "dur":366177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739927148679318, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739927148679327, "dur":1631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739927148680991, "dur":146297, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739927148257953, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739927148257953, "dur":5561, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739927148263514, "dur":522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1739927148264039, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739927148268110, "dur":2298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1739927148270500, "dur":481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1739927148270989, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739927148271293, "dur":4402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1739927148275787, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739927148275857, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739927148282339, "dur":17652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739927148300047, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739927148300134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739927148300143, "dur":15005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739927148315202, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739927148315267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739927148315273, "dur":10566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739927148325900, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739927148325962, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739927148325971, "dur":16985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739927148343022, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739927148343083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739927148343090, "dur":15874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739927148359124, "dur":467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739927148359597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739927148359605, "dur":23444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739927148383161, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739927148383228, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739927148383239, "dur":60911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739927148444203, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739927148444386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739927148444400, "dur":30679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739927148475131, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739927148475233, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739927148475240, "dur":39216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739927148514562, "dur":750, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739927148515318, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739927148515329, "dur":24851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739927148540235, "dur":12817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1739927148553060, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739927148553090, "dur":22400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1739927148575547, "dur":251700, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739927148257982, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739927148257983, "dur":5587, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739927148263571, "dur":470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1739927148264044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739927148267160, "dur":4278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1739927148271798, "dur":571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1739927148272372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739927148272379, "dur":2693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1739927148275108, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto.exe" }}
+,{ "pid":12345, "tid":11, "ts":1739927148275147, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739927148275174, "dur":7423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto.exe" }}
+,{ "pid":12345, "tid":11, "ts":1739927148282653, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739927148282757, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739927148282940, "dur":17670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739927148300669, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739927148300744, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739927148300753, "dur":13865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739927148314789, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739927148314856, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739927148314864, "dur":10038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739927148324977, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739927148325062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739927148325072, "dur":17464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739927148342614, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739927148342672, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739927148342680, "dur":15056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739927148357804, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739927148357862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739927148357873, "dur":20190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739927148378127, "dur":249297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739927148627432, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739927148627477, "dur":2094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739927148629631, "dur":197624, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739927148258003, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739927148258003, "dur":5498, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739927148263508, "dur":499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1739927148264012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739927148268500, "dur":3456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1739927148272024, "dur":402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739927148272429, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739927148272765, "dur":4049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739927148276876, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739927148276939, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739927148282245, "dur":13347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739927148295667, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739927148295738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739927148295751, "dur":12699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739927148308607, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739927148308721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739927148308736, "dur":11054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739927148319867, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739927148319936, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739927148319944, "dur":12038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739927148332144, "dur":369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739927148332518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739927148332557, "dur":16354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739927148348974, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739927148349034, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739927148349042, "dur":17469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739927148366575, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739927148366637, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739927148366647, "dur":16407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739927148383190, "dur":242204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739927148625402, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739927148625416, "dur":2303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/migue/Downloads/mis juegos/Laberinto_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739927148627776, "dur":199519, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739927148832910, "dur":1521, "ph":"X", "name": "ProfilerWriteOutput" }
+,
